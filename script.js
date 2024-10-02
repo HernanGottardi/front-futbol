@@ -5,23 +5,23 @@ function elegirImagen(categoria)
     console.log(categoria)
     if (categoria == "AFCCHA") 
     {
-        return "Imagenes/AFC.png";
+        return "./Imagenes/AFC.png";
     }
     else if (categoria == "PE")
     {
-        return "Imagenes/peru.png";
+        return "./Imagenes/peru.png";
     }
     else if (categoria == "ENG")
     {
-        return "Imagenes/inglaterra.jpeg";
+        return "./Imagenes/inglaterra.jpeg";
     }
     else if (categoria == "IT")
     {
-        return "Imagenes/italia.jpg";
+        return "./Imagenes/italia.jpg";
     }
     else
     {
-        return "Imagenes/argentina.jpg";
+        return "./Imagenes/argentina.jpg";
     }
 }
 
