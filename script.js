@@ -28,6 +28,9 @@ function elegirImagen(categoria)
 const contenedorEl = document.querySelector(".contenedor")
 
 const games = getGames();
+console.log("games: ", games)
+
+
 games.then(allGames => {
 
     allGames.forEach(game => 

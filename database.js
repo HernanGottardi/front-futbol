@@ -1,7 +1,7 @@
 // Agregar un documento con datos personalizados
 export async function getGames() 
 {
-  const response = await fetch('https://front-futbol.vercel.app/games', {
+  const response = await fetch('https://api-futbol-three.vercel.app/games', {
     method: 'GET', 
     mode: 'cors',// Método POST
   })
