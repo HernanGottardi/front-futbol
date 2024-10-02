@@ -19,6 +19,18 @@ function elegirImagen(categoria)
     {
         return "public/Imagenes/italia.jpg";
     }
+    else if (categoria == "COL")
+    {
+            return "public/Imagenes/colombia.png";
+    }
+    else if (categoria == "BRA")
+    {
+        return "public/Imagenes/brasil.jpg";
+    }
+    else if (categoria == "URU")
+    {
+        return "public/Imagenes/uruguay.jpeg";
+    }
     else
     {
         return "public/Imagenes/argentina.jpg";
