@@ -31,6 +31,10 @@ function elegirImagen(categoria)
     {
         return "public/Imagenes/uruguay.jpeg";
     }
+    else if (categoria == "AFCCHA")
+    {
+        return "public/Imagenes/uruguay.jpeg";
+    }
     else
     {
         return "public/Imagenes/argentina.jpg";
