@@ -1,0 +1,78 @@
+body 
+{
+    background-color: black;
+    color: white;
+}
+
+.contenedor
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPrincipal
+{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    width: 81%;
+    margin: 20px auto;
+}
+
+.opcionesParaVer
+{
+    background-color: red;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+}
+
+.tituloPartido
+{
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0;
+}
+
+.enlacePrograma
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+
+}
+
+.enlacePrograma:hover
+{
+    color: rgb(255, 251, 1);
+}
+
+.imgPais
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 40px;
+}
+
+.contenedorTituloImagen
+{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
